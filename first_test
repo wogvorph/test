@@ -1,0 +1,24 @@
+print("Hey, what's your name?")
+name = input("")
+print("Nice to meet you", name,"!") #nie wiem jak wywalić spacje przed wykrzyknikiem
+ 
+print("Please veryfy your age before we move on.")
+age = int(input("Enter your age: "))
+ 
+if age >= 18:
+    gender = input("Male or female? ").lower()
+else:
+    print("Sorry, you need to be at least 18 to continue.")
+ 
+ 
+while True:
+    if gender == ("male"):
+        print("Show me pp")
+        break
+    if gender == "female":
+        print("Show booba")
+        break
+    else:
+        print("Nope, try again") #i tu nie wiem jak wrocic do pytania o plec znow
+    break
+ 
